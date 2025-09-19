@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KVCDerivates'
-  s.version          = '2.2'
+  s.version          = '2.4'
   s.summary          = 'Declares classes that can be represented by Key-Value pairs.'
 
 # This description is used to generate tags and improve search results.
@@ -28,12 +28,12 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/averello/KVCDerivates.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'KVCDerivates/Classes/**/*'
 
   s.xcconfig = { 
-	  "SWIFT_VERSION" => '4.2',
+	  "SWIFT_VERSION" => '5.0',
   }
   
   # s.resource_bundles = {

@@ -1,45 +1,47 @@
 PODS:
-  - Ents (3.1.1)
-  - KVCDerivates (2.2):
+  - Ents (3.1.9)
+  - KVCDerivates (2.4):
     - LKVCKit
     - RepresentationKit
-  - LKVCKit (2.2):
+  - LKVCKit (2.5):
     - Ents
-  - RepresentationKit (2.2)
+  - RepresentationKit (2.6)
 
 DEPENDENCIES:
-  - Ents (from `https://github.com/averello/Ents.git`)
+  - Ents (from `https://github.com/AbZorbaGames/Ents.git`, tag `v3.1.9`)
   - KVCDerivates (from `../`)
-  - LKVCKit (from `https://github.com/averello/LKVCKit.git`)
-  - RepresentationKit (from `https://github.com/averello/RepresentationKit.git`)
+  - LKVCKit (from `https://github.com/AbZorbaGames/LKVCKit.git`, tag `v2.5`)
+  - RepresentationKit (from `https://github.com/AbZorbaGames/RepresentationKit.git`)
 
 EXTERNAL SOURCES:
   Ents:
-    :git: https://github.com/averello/Ents.git
+    :git: https://github.com/AbZorbaGames/Ents.git
+    :tag: v3.1.9
   KVCDerivates:
     :path: "../"
   LKVCKit:
-    :git: https://github.com/averello/LKVCKit.git
+    :git: https://github.com/AbZorbaGames/LKVCKit.git
+    :tag: v2.5
   RepresentationKit:
-    :git: https://github.com/averello/RepresentationKit.git
+    :git: https://github.com/AbZorbaGames/RepresentationKit.git
 
 CHECKOUT OPTIONS:
   Ents:
-    :commit: 2d6d8a352bc35be340a56929da21e4ed9cfe4ce6
-    :git: https://github.com/averello/Ents.git
+    :git: https://github.com/AbZorbaGames/Ents.git
+    :tag: v3.1.9
   LKVCKit:
-    :commit: ba105071b6780a6dec2d70474388bd8bc6168703
-    :git: https://github.com/averello/LKVCKit.git
+    :git: https://github.com/AbZorbaGames/LKVCKit.git
+    :tag: v2.5
   RepresentationKit:
-    :commit: 87c8045f94bbb9aaba43de8273ddee966229190a
-    :git: https://github.com/averello/RepresentationKit.git
+    :commit: 38197edc0bc471b76c92ca4fc8c9428fd2db41e8
+    :git: https://github.com/AbZorbaGames/RepresentationKit.git
 
 SPEC CHECKSUMS:
-  Ents: 8c03f9a801f0677cd6b2f2e00e9ad03e0a195d84
-  KVCDerivates: 5013e5b6a1c115f6f3a0273d8c1af0217851b421
-  LKVCKit: feebf8a921e66b4f28eb466c22a1e83261f1386a
-  RepresentationKit: f1cbe81fe33fe738a2a3d8a1f752359cbb57172c
+  Ents: c16cfc96cd67165292e247e788100170d61d8deb
+  KVCDerivates: f1b7f18c4fdf9afd2e4b5ae30c3d64a294fd14ff
+  LKVCKit: 83577d5947ebd85eea4aa6761b28de335259812f
+  RepresentationKit: da5fcf3a2d93e399974108fb3afa2f67b25ebdfc
 
-PODFILE CHECKSUM: 2a1bbb8214f76c82cc535be29a91ce57fb745122
+PODFILE CHECKSUM: 8ba13c726ad08c2d11e124b2545b3730d0fb0773
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.16.2

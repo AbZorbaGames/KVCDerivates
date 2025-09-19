@@ -1,9 +1,9 @@
 {
   "name": "LKVCKit",
-  "version": "2.2",
+  "version": "2.5",
   "summary": "A very basic and simplistic Key-Value Coding implementation for Swift.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/averello/LKVCKit",
+  "homepage": "https://github.com/AbZorbaGames/LKVCKit",
   "license": {
     "type": "Apache 2.0",
     "file": "LICENSE"
@@ -12,19 +12,17 @@
     "Georges Boumis": "developer.george.boumis@gmail.com"
   },
   "source": {
-    "git": "https://github.com/averello/LKVCKit.git",
-    "tag": "2.2"
+    "git": "https://github.com/AbZorbaGames/LKVCKit.git",
+    "tag": "2.5"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "13.0"
   },
   "source_files": "LKVCKit/Classes/**/*",
   "xcconfig": {
-    "SWIFT_VERSION": "4.2"
+    "SWIFT_VERSION": "5.0"
   },
   "dependencies": {
-    "Ents": [
-
-    ]
+    "Ents": []
   }
 }

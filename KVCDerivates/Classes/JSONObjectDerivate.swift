@@ -46,8 +46,8 @@ open class JSONObjectDerivate: JSONDerivate, Representable, LKVC {
         throw LightKVCError.undefinedKey(key: key, value: value)
     }
 
-	open func represent(using representation: Representation) -> Representation {
-        return self.dictionary.reduce(representation, { (rep, pair) -> Representation in
+	open func represent(using representation: AbzorbaRepresentation) -> AbzorbaRepresentation {
+        return self.dictionary.reduce(representation, { (rep, pair) -> AbzorbaRepresentation in
             rep.with(key: pair.0, value: pair.1)
         })
 	}
